@@ -12,14 +12,14 @@
 ##SSH
 
 ###Installing ssh
-`sudo apt-get install openssh`
+`sudo apt-get install openssh-client`
 
 ###Connecting to server
 `$ ssh username@hostname`
 
 ###Public key authentication
 `ssh-keygen -t rsa`
-The private key is at `~/.ssh/id_rsa` while the private key is at `~/.ssh/id_rsa.pub`
+The private key is at `~/.ssh/id_rsa` while the public key is at `~/.ssh/id_rsa.pub`
 The server needs your public key to authenticate the connection.
 
 ##Version Control
